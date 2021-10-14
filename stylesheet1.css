@@ -1,0 +1,103 @@
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:visited {
+  color: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+}
+
+.mass {
+  width: 80%;
+  height: 400px;
+  position: fixed;
+  top: 100px;
+  left: 10%;
+}
+
+ul {
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.slide-wrapper {
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+}
+
+.slide-wrapper .slide {
+  display: none;
+}
+
+.slide-wrapper .active {
+  display: block;
+}
+
+.slide-wrapper .prev-btn {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  display: none;
+}
+
+.slide-wrapper .next-btn {
+  position: absolute;
+  right: 0;
+  top: 50%;
+}
+
+.change-btn {
+  font-size: 25px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.change-btn:hover {
+  background-color: #abf7f7;
+  color: white;
+  border: 1px solid #00cccc;
+}
+
+.change-btn, .index-btn {
+  cursor: pointer;
+}
+
+.index-btn {
+  padding: 1px 3px;
+  margin: 3px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  background-color: white;
+  color: #abf7f7;
+  border: 1px solid #00cccc;
+}
+
+.index-btn:hover {
+  background-color: #abf7f7;
+  color: white;
+  border: 1px solid #00cccc;
+}
+
+.active-btn {
+  background-color: #abf7f7;
+  color: white;
+  border: 1px solid #00cccc;
+}
+/*# sourceMappingURL=stylesheet1.css.map */
